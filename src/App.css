@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff4ea;
+}
+
+.card {
+  margin: auto;
+  width: min(300px, 100%);
+  border: 1px;
+  background-color: #fff4ea;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #141417;
+  filter: drop-shadow(0 0 0.75rem #603f26);
+}
+
+.container {
+  width: min(300px, 100%);
+  height: min(auto 50%);
+  border: 0.5px;
+  background-color: #603f26;
+  border-radius: 0.5rem;
+}
+
+.image {
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  border-radius: 0.3rem;
+  width: 150px;
+  height: 150;
+  object-fit: cover;
+}
+
+ul {
+  color: #fff4ea;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
